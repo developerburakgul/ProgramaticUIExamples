@@ -10,29 +10,8 @@ import UIKit
 class HomePageVC: UIViewController {
     
     
-    lazy var userNameTextField : UITextField = {
-        let textField = UITextField()
-        
-        textField.borderStyle = .none
-        textField.textColor = .red
-        textField.backgroundColor = .systemGray5
-        textField.keyboardType = .emailAddress
-        textField.placeholder = "Enter username"
-        textField.textAlignment = .center
-        return textField
-    }()
-    
-    lazy var passwordTextField : UITextField = {
-        let textField = UITextField()
-        textField.borderStyle = .none
-        textField.textColor = .red
-        textField.backgroundColor = .systemGray5
-        textField.isSecureTextEntry = true
-        textField.placeholder = "Enter password"
-        textField.textAlignment = .center
-        
-        return textField
-    }()
+    lazy var userNameTextField = CustomTextFields()
+    lazy var passwordTextField = CustomTextFields(isSecureText: true, textColor: .blue)
     
     
    lazy var loginButton : UIButton = {
