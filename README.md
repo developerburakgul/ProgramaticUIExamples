@@ -11,7 +11,7 @@ I want to develop myself about programatic uı . I am going to add ss here
 
 ## LoginPage
 
-![Uygulama Ekran Görüntüsü](https://github.com/developerburakgul/ProgramaticUIExamples/blob/main/LoginPage/LoginPageSS.png?raw=true)
+![Uygulama Ekran Görüntüsü](https://github.com/developerburakgul/ProgramaticUIExamples/blob/main/LoginPage2/LoginPage2.png?raw=true)
 
 
 
